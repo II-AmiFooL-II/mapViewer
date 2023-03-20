@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.tour{
+    width: 100vw;
+    background: #074357;
+    height: 100vh;
+    overflow:auto;
+    margin: 0;
+}
+
+
+.openlayers{
+    float: left;
+    height: 100vh;
+    width: 50vw;
+}
+.map {
+    width: 50vw;
+    height: 100vh;
+}
+.image-container{
+    float: right;
+    height: 100vh;
+    width: 50vw;
+}
+
+canvas{
+    width: 100%;
+}
